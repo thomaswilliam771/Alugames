@@ -6,10 +6,10 @@ function alterarStatus(id) {
     if (imagem.classList.contains('dashboard__item__img--rented')) {
             imagem.classList.remove('dashboard__item__img--rented');
             botao.classList.remove('dashboard__item__button--return');
-            botao.innerHTML = 'Alugar'; // pode usar o .textContent
+            botao.innerHTML = 'Alugar'; // pode usar o .textContentaaaa
         } else {
             imagem.classList.add('dashboard__item__img--rented');
             botao.classList.add('dashboard__item__button--return');
-            botao.innerHTML = 'Devolver'; // pode usar o .textContent
+            botao.innerHTML = 'Devolver'; // pode usar o .textContentaaaa
         }
     }
